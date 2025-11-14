@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    background-image: url("imagens/imagem_fundo2.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+}   
+
+
+nav {
+    background-color: #8B0000;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration:#fff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.banner {
+    background-image: url('../imagens/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    text-align: center;
+    color:#fff;
+    font-family: 'Playfair Display', serif; 
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+
+.galeria {
+    padding: 40px;
+    text-align: center;
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.item img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color:#fff;
+}
+
+
+.sobre, .contato {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sobre h1, .contato h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 36px;
+    color:#fff;
+}
