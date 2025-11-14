@@ -1,2 +1,3 @@
 # Projeto-Design
-Site de projeto Design 
+Nome dos Integrantes: Davi e Piero
+👨‍🍳🍽️ Site com o tema de culinária para o  projeto Design 
